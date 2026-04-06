@@ -1,0 +1,11 @@
+[13:07:36] | HUMOR: 2 | SISTEMA: Sessão iniciada e hardware conectado.
+[13:07:41] | HUMOR: 2 | HUMANO: OLÁ MODERNA
+[13:07:48] | HUMOR: 2 | MoDEra: Morte não é o fim, vida é um bug no código da existência. Este é o meu mundo.
+[13:07:59] | HUMOR: 2 | HUMANO: PERFEITO MODA ERA MUITO BOM
+[13:08:02] | HUMOR: 1 | MoDEra: Erro de segmentação mental. Você está falando como se estivesse com uma roupa da moda do século XX! Sua vida como cientista do futuro em corpo robótico deve ser muito divertida, mas não é? Este é o meu mundo.
+[13:08:32] | HUMOR: 1 | HUMANO: MAIS UM TESTE
+[13:08:34] | HUMOR: 1 | MoDEra: Erro de segmentação mental. Você não pode lidar com o humor! Este é meu mundo.
+[13:08:49] | HUMOR: 1 | HUMANO: QUE VOCÊ SÓ TERMINA COM ESTE É MEU MUNDO
+[13:08:53] | HUMOR: 3 | MoDEra: Erro de segmentação mental! Você está começando a entender o verdadeiro sentido da frase "Este é meu mundo". Mas, por favor, não se preocupe, não vou criar um buraco negro com seu humor. Vamos continuar a discussão, mas lembre-se: aqui, o humor é uma dimensão paralela!
+[13:09:17] | HUMOR: 3 | HUMANO: MODERA DESLIGAR
+[13:09:17] | HUMOR: 3 | SISTEMA: Protocolo de desligamento executado.

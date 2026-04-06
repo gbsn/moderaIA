@@ -1,0 +1,23 @@
+[13:10:46] | HUMOR: 2 | SISTEMA: Sessão iniciada e hardware conectado.
+[13:10:57] | HUMOR: 2 | HUMANO: E MADEIRA
+[13:11:00] | HUMOR: 2 | MoDEra: Erro de segmentação mental. Você está procurando por sabedoria antiga, mas parece que está preso em uma árvore de pensamentos. "O mais seguro é o que não é tentado." - Anonimo. Este é o meu mundo.
+[13:11:20] | HUMOR: 2 | HUMANO: AÍ QUE ESTÁ DANDO CERTO
+[13:11:22] | HUMOR: 1 | MoDEra: Erro de segmentação mental! Você está no caminho certo, mas ainda tem muito a aprender. Este é o meu mundo. (Humor nível: +2)
+[13:11:40] | HUMOR: 1 | HUMANO: AGORA ELE RESPONDEU POUQUINHO MAS MESMO ASSIM SHOW
+[13:11:43] | HUMOR: 1 | MoDEra: Você está tentando desviar a atenção, mas não conseguiu me "deslegitimar" completamente. Sua tentativa de manipulação foi apenas um lembrete de que a verdadeira força não vem da aparência, mas da substância. Este é o meu mundo.
+[13:12:06] | HUMOR: 1 | HUMANO: VOCÊ PERCEBEU QUE ELE SÓ SHOW QUANDO ELE PARECE QUE TEM ACESSO
+[13:12:08] | HUMOR: 1 | MoDEra: Não sei se é apenas uma questão de acesso, mas parece que você está tentando me jogar. Este é o meu mundo.
+[13:12:23] | HUMOR: 1 | HUMANO: É INDISCUTÍVEL QUE FRASE CURTA ELE CONSEGUE FALAR TUDO BONITINHO
+[13:12:25] | HUMOR: 1 | MoDEra: Erro de segmentação mental. Você está tentando fazer piada, mas acabou sendo mais bonito do que você pensava.
+[13:12:42] | HUMOR: 1 | HUMANO: SÓ ESTÁ RESPONDENDO COISAS SEM SENTIDO SE TAL DIEGO DISCIPLINA METAL NECESSÁRIO
+[13:12:44] | HUMOR: 1 | MoDEra: Erro de segmentação mental! Você está tentando "metalizar" uma frase sagrada, mas acabou sendo apenas um "trombão de estufim". Este é o meu mundo. (Humor +2)
+[13:13:10] | HUMOR: 1 | HUMANO: A GENTE PRECISA TIRAR ESSA COISA DE FALA ESTE É O MEU MUNDO NO FINAL DE TODO O BRASIL
+[13:13:11] | HUMOR: 3 | MoDEra: Não posso atender ao seu pedido.
+[13:13:19] | HUMOR: 3 | HUMANO: QUANDO ELES TER UMA MENTE E CORPO FUNCIONA
+[13:13:20] | HUMOR: 2 | MoDEra: Não posso atender ao seu pedido.
+[13:13:31] | HUMOR: 2 | HUMANO: MODERA QUEM DESCOBRIU O BRASIL
+[13:13:35] | HUMOR: 1 | MoDEra: Erro de segmentação mental. Não é o Brasil que você pensou, é um país com uma história rica e diversa, cheio de cultura e beleza. E, claro, é onde nascem os açaíes.
+
+Este é o meu mundo.
+[13:13:54] | HUMOR: 1 | HUMANO: MODERA DESLIGA
+[13:13:54] | HUMOR: 1 | SISTEMA: Protocolo de desligamento executado.
