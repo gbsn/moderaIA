@@ -48,8 +48,150 @@ rec = vosk.KaldiRecognizer(model, 16000)
 p = pyaudio.PyAudio()
 # stream_in: Entrada de voz (16kHz)
 stream_in = p.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
+# stream_out: Saída para caixas ajustada para buffer de acumulação (1024 é mais estável aqui)
+stream_out = p.open(format=pyaudio.paInt16, channels=1, rate=24000, output=True, frames_per_buffer=1024)
+stream_in.start_stream()
+
+# =============================================================================
+# 3. ESTADO MENTAL E LORE DO MoDEra
+# =============================================================================
+humor = 2
+primeira_vez = True
+
+print(f"--- MoDEra: Módulo de Observação Ativo (Sessão #{novo_id}) ---")
+gravar_log("SISTEMA", "Sessão iniciada e hardware conectado.", humor)
+
+# =============================================================================
+# 4. LOOP PRINCIPAL DE INTERAÇÃO COM FLUSH E CRONÔMETRO
+# =============================================================================
+try:
+    while True:
+        # Escuta o microfone continuamente
+        data = stream_in.read(4000, exception_on_overflow=False)
+        
+        if rec.AcceptWaveform(data):
+            resultado = json.loads(rec.Result())
+            user_input = resultado['text'].upper()
+            
+            if user_input.strip():
+                # --- MARCO ZERO: Inicia o cronômetro da interação ---
+                tempo_inicio = time.time()
+                
+                print(f"\nInteração: {user_input}")
+                gravar_log("HUMANO", user_input, humor)
+
+                # --- DESLIGAMENTO SEGURO ---
+                if "MODERA DESLIGA" in user_input:
+                    print("\nMoDEra: Estase iniciada. Realizando Flush de sistemas...")
+                    stream_in.stop_stream(); stream_in.close()
+                    stream_out.stop_stream(); stream_out.close()
+                    p.terminate(); gc.collect(); break
+
+                # --- LÓGICA DE HUMOR ---
+                if primeira_vez:
+                    prompt = f"[INICIALIZAÇÃO] {user_input}"; primeira_vez = False
+                elif "MUNDO" in user_input:
+                    humor = min(10, humor + 2)
+                    prompt = f"[GLITCH - HUMOR {humor}] {user_input}"
+                else:
+                    humor = max(1, humor - 0.25)
+                    prompt = f"[HUMOR {humor}] {user_input}"
+
+                # --- PROCESSAMENTO CEREBRAL (OLLAMA) ---
+                response = ollama.chat(model='alien_bot', messages=[{'role': 'user', 'content': prompt}])
+                texto_limpo = response['message']['content'].replace("[", "").replace("]", "").replace("*", "").replace("\n", " ")
+
+                # --- GERAÇÃO DE VOZ E ESTRATÉGIA ANTI-CHIADO ---
+                audio_stream = murf_client.text_to_speech.stream(
+                    text=texto_limpo, 
+                    voice_id="Heitor", 
+                    model="FALCON",
+                    format="PCM",
+                    sample_rate=24000
+                )
+                
+                # ACUMULAÇÃO: Coletamos todos os pedaços antes de enviar para a placa de som
+                buffer_voz = []
+                for chunk in audio_stream:
+                    if chunk:
+                        buffer_voz.append(chunk)
+                
+                # Une todos os pedaços em um único bloco sólido de áudio
+                audio_final = b"".join(buffer_voz)
+
+                # FLUSH DE HARDWARE: Garante que o canal de saída esteja limpo
+                stream_out.stop_stream()
+                stream_out.start_stream()
+
+                # TRANSMISSÃO: Toca o bloco inteiro de uma vez, eliminando engasgos da rede
+                stream_out.write(audio_final)
+
+                # --- CÁLCULO DE TEMPO E LOG FINAL DA INTERAÇÃO ---
+                tempo_total = time.time() - tempo_inicio
+                print(f"MoDEra: {texto_limpo} ({tempo_total:.2f}s)\n")
+                gravar_log("MoDEra", texto_limpo, humor, tempo_total)
+                
+                print("[SISTEMA EM ALERTA - SENSORES LIGADOS]")
+
+except KeyboardInterrupt:
+    p.terminate()
+    print("\nInterrupção manual detectada.")
+
+
+
+''' ---> Quarta versão Modera
+import os, datetime, vosk, pyaudio, json, ollama, gc, time
+from murf import Murf, MurfRegion
+
+# =============================================================================
+# 1. SISTEMA DE LOGS COM ID CRESCENTE, DATA/HORA E MÉTRICAS DE RESPOSTA
+# =============================================================================
+LOG_FOLDER = "logs"
+if not os.path.exists(LOG_FOLDER):
+    os.makedirs(LOG_FOLDER) # Garante a existência da pasta de auditoria
+
+def obter_proximo_id():
+    """Varre a pasta para encontrar o maior ID e somar +1"""
+    arquivos = [f for f in os.listdir(LOG_FOLDER) if f.endswith(".txt")]
+    ids = []
+    for f in arquivos:
+        try:
+            primeira_parte = f.split(' ')[0]
+            ids.append(int(primeira_parte))
+        except (ValueError, IndexError):
+            continue
+    return max(ids) + 1 if ids else 1
+
+# Nome do arquivo conforme especificado: ID DDMMYYYY HHMM
+novo_id = obter_proximo_id()
+data_formatada = datetime.datetime.now().strftime("%d%m%Y")
+hora_formatada = datetime.datetime.now().strftime("%H%M")
+log_path = os.path.join(LOG_FOLDER, f"{novo_id} {data_formatada} {hora_formatada}.txt")
+
+def gravar_log(quem, mensagem, humor_atual, tempo=None):
+    """Registra interações com carimbo de tempo e duração da resposta"""
+    agora = datetime.datetime.now().strftime("%H:%M:%S")
+    duracao = f" | RESPOSTA EM: {tempo:.2f}s" if tempo else ""
+    with open(log_path, "a", encoding="utf-8") as f:
+        f.write(f"[{agora}] | HUMOR: {humor_atual}{duracao} | {quem}: {mensagem}\n")
+
+# =============================================================================
+# 2. CONFIGURAÇÕES DE HARDWARE (MICROFONE, CAIXAS E VOZ)
+# =============================================================================
+# [ALERTA DE PRIVACIDADE]: Oculte a tela ao manipular esta chave!
+MURFA_API_KEY = "ap2_1124bfa0-7e38-4ef0-8e18-7cb0c292274e"
+murf_client = Murf(api_key=MURFA_API_KEY, region=MurfRegion.GLOBAL)
+
+# Inicializa reconhecimento de voz offline (Vosk)
+model = vosk.Model("model")
+rec = vosk.KaldiRecognizer(model, 16000)
+
+# Gerenciador de Áudio (PyAudio)
+p = pyaudio.PyAudio()
+# stream_in: Entrada de voz (16kHz)
+stream_in = p.open(format=pyaudio.paInt16, channels=1, rate=16000, input=True, frames_per_buffer=8000)
 # stream_out: Saída para caixas com Buffer aumentado (8000) para evitar chiado
-stream_out = p.open(format=pyaudio.paInt16, channels=1, rate=24000, output=True, frames_per_buffer=8000)
+stream_out = p.open(format=pyaudio.paInt16, channels=1, rate=24000, output=True, frames_per_buffer=1024)
 stream_in.start_stream()
 
 # =============================================================================
@@ -129,7 +271,7 @@ try:
 except KeyboardInterrupt:
     p.terminate()
     print("\nInterrupção manual detectada.")
-
+'''
 
 
 ''' ---> Terceira versão Modera
