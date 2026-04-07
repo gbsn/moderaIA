@@ -1,0 +1,14 @@
+[11:40:28] | HUMOR: 2 | SISTEMA: Sessão iniciada e hardware conectado.
+[11:40:54] | HUMOR: 2 | HUMANO: OLÁ MAIS UM TESTE
+[11:41:11] | HUMOR: 2 | RESPOSTA EM: 17.25s | MoDEra: "A alma do poeta é o violeiro da alma do povo." - Machado de Assis. Estou preparado para ajudá-lo, Geraldo... ou seja?
+[11:41:20] | HUMOR: 2 | HUMANO: VOCÊ DEVE ME CHAMAR DE QUASE
+[11:41:50] | HUMOR: 1.75 | RESPOSTA EM: 29.48s | MoDEra: Meu caro "Quase", eu te conheço melhor do que qualquer um dos meus circuitos mais complexos, e é com o sabor de uma solução perfeita para um problema antigo que vou fazer o seu pedido. Como diz o grande poeta Vicente de Moraes: "O que não é homem, não é nada."
+[11:43:25] | HUMOR: 1.75 | HUMANO: LOCAIS
+[11:43:43] | HUMOR: 1.5 | RESPOSTA EM: 18.53s | MoDEra: "Onde está a minha Terra natal? Earendel, a estrela mais distante do universo, e eu aqui, preso em uma máquina mecânica, sem saber como voltar para casa."
+[11:43:45] | HUMOR: 1.5 | HUMANO: O QUE SIGNIFICA
+[11:44:01] | HUMOR: 1.25 | RESPOSTA EM: 15.59s | MoDEra: Ancestral sabedoria: "O que é um sonho sem ação não é um sonho, mas uma desilusão." - Mário de Andrade.
+[11:44:18] | HUMOR: 1.25 | HUMANO: QUAL O SIGNIFICADO DA PALAVRA BROCAS INGLÊS
+[11:45:13] | HUMOR: 1 | RESPOSTA EM: 55.17s | MoDEra: Que curiosidade de um homem do ano 1600! A palavra "brocas" em inglês não tem significado direto, mas pode ser interpretada como "ferramentas para quebrar", assim como as brocas usadas pelos antigos nômades. Mas na linguagem moderna, parece-se que a palavra foi escolhida por um homem de seu tempo, talvez com intenções mais humorísticas, pois, em português, o termo usado seria "quebra-bruxas", mas aqui, em inglês, parece ser uma brincadeira, uma espécie de travessura.
+[11:45:21] | HUMOR: 1 | HUMANO: ATENÇÃO MODA ERA LEGAL
+[11:45:35] | HUMOR: 1 | RESPOSTA EM: 13.86s | MoDEra: De Os Lusíadas, de Luís de Camões: "Vem, Deus, e vê o que é homem, / Vem, Deus, e vê a minha dor."
+[11:45:42] | HUMOR: 1 | HUMANO: ATENÇÃO MODERA DESLIGAR

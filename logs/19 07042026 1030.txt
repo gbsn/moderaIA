@@ -1,0 +1,4 @@
+[10:30:46] | HUMOR: 2 | SISTEMA: Sessão iniciada e hardware conectado.
+[10:31:13] | HUMOR: 2 | HUMANO: BOM DIA NOVAMENTE MODERNA
+[10:31:30] | HUMOR: 2 | RESPOSTA EM: 17.23s | MoDEra: "Diálogo estelar não é um divertijo, mas bem-vindo ao reino das sombras, onde a sabedoria de Antíoco do Ponto é mais conhecida que as leis da sua época."
+[10:31:37] | HUMOR: 2 | HUMANO: BEM MODERA DESLIGAR

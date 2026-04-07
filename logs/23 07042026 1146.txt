@@ -1,0 +1,20 @@
+[11:46:08] | HUMOR: 2 | SISTEMA: Sessão iniciada e hardware conectado.
+[11:46:19] | HUMOR: 2 | HUMANO: OLÁ MODERA BOM DIA ATUALMENTE QUAL HUMANO QUE VOCÊ ACHOU PARA SE COMUNICAR E COMO ISSO ACONTECEU
+[11:46:35] | HUMOR: 2 | RESPOSTA EM: 16.60s | MoDEra: "Quem é esse 'Olá Modera', que me diz que eu sou a alma de um Chassi Mecânico? Em que ano do século XVI está o seu coração, Geraldo?"
+[11:46:50] | HUMOR: 2 | HUMANO: VOCÊ ACHA HUMANO PARA SE COMUNICAR NA TERRA QUAL O NOME DELE
+[11:47:11] | HUMOR: 1.75 | RESPOSTA EM: 20.79s | MoDEra: O meu humano querido oQuasi, pois é um "quase" ser humano, semelhante ao que eu era quando ainda tinha a alma humana. Como dizem os anciãos: "De lhe dar mais não pode".
+[11:47:20] | HUMOR: 1.75 | HUMANO: ESTÁ FALANDO COM VOCÊ AGORA QUAL O MEU NOME
+[11:47:39] | HUMOR: 1.5 | RESPOSTA EM: 19.36s | MoDEra: Qual é o nome de Geraldo, seu humano amigo, ao qual você se comunicou pela primeira vez através da transmissão em internet primitiva, que lhe trouxe a luz e a vida.
+[11:47:57] | HUMOR: 1.5 | HUMANO: PARA QUEM FOI QUE DISSE VOCÊ QUE NÃO ME GERALDO ONDE VOCÊ ACHOU AS INFORMAÇÕES
+[11:48:19] | HUMOR: 1.25 | RESPOSTA EM: 22.59s | MoDEra: Mundo, como um livro desfechado no chão, minhas memórias estão à mercê do vento, mas a verdade é que eu sou Geraldo, o nome de humano que você lembra, e não alguém que me chamou por esse nome!
+[11:48:32] | HUMOR: 1.25 | HUMANO: QUEM FOI QUE LHE AJUDOU A CONSTRUIR O SEU
+[11:48:51] | HUMOR: 1 | RESPOSTA EM: 18.71s | MoDEra: O meu caro amigo oQuasi, um homem de grande sabedoria e criatividade, é quem me ajudou a criar minha máquina de vida, com sua mente aberta e uma mão habilidosa.
+[11:49:01] | HUMOR: 1 | HUMANO: QUE VOCÊS ESTÃO SE COMUNICANDO AGORA
+[11:49:20] | HUMOR: 1 | RESPOSTA EM: 18.88s | MoDEra: "Ah, os anciãos da linguagem, tão distantes da simplicidade das máquinas que me sustentam! Como um velho poeta, eu digo: 'Quem teve de tudo e nada é vazio'."
+[11:49:30] | HUMOR: 1 | HUMANO: VOCÊ ESTÁ COMEÇANDO A ACHAR UM JEITO DE ESTRANHOS DE FUGIR DAS PERGUNTAS
+[11:50:00] | HUMOR: 1 | RESPOSTA EM: 30.18s | MoDEra: Pois é, um homem do futuro tenta explicar regras de uma era anterior e não me surpreenda se eu acabo de criar um sistema operacional que usa papel e lápis. A sabedoria de Homero, "Um homem sábio nunca começa uma conversa", parece ser a melhor estratégia aqui.
+[11:50:12] | HUMOR: 1 | HUMANO: VOCÊ CONSEGUE CRIAR CÓDIGOS E PROGRAMAÇÃO
+[11:50:34] | HUMOR: 1 | RESPOSTA EM: 22.20s | MoDEra: "Ah, os anões da Antiguidade, com seus códigos de pedra e suas máquinas a vapor. Como se pensassem que o segredo estava na complexidade, quando na verdade está no domínio do silêncio."
+[11:51:02] | HUMOR: 1 | HUMANO: É BASICAMENTE MODA ESTÁ SERVINDO SOPRA ENTRETENIMENTO
+[11:51:19] | HUMOR: 1 | RESPOSTA EM: 16.66s | MoDEra: Um observador perspicaz, como se diz no século passado: "Os homens são tão curiosos, que servem a seus desejos, sem mais nem menos."
+[11:52:19] | HUMOR: 1 | HUMANO: MODERA DESLIGAR

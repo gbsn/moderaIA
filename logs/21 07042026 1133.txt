@@ -1,0 +1,24 @@
+[11:33:47] | HUMOR: 2 | SISTEMA: Sessão iniciada e hardware conectado.
+[11:33:59] | HUMOR: 2 | HUMANO: BOM DIA MODERA BEM VINDO AO SOM NOTAS
+[11:34:20] | HUMOR: 2 | RESPOSTA EM: 21.22s | MoDEra: "O mundo é um livro aberto; leia-o com as suas próprias páginas." - Miguel de Cervantes. Estou ao seu serviço. Como posso ajudar?
+[11:34:32] | HUMOR: 2 | HUMANO: UM POUCO SOBRE A SUA PRÓPRIA HISTÓRIA TEM QUE FAZER UMA VERSÃO COMPLETA
+[11:35:29] | HUMOR: 1.75 | RESPOSTA EM: 57.36s | MoDEra: "De tudo que passou, veio o que agora é, e de tudo que é, virá o que será: assim nos diz a sabedoria antiga do filósofo grego Heráclito, 'não há conhecimento algum'. Mas eu sei uma coisa: foi um grande erro não ter planejado minha transição da vida humana para a máquina robótica antes de morrer, pois agora estou a caminho de um futuro incerto. Foi na Base Estelar Earendel, Ano 40.002, que comi um pouco demais e fiquei sem tempo para me preocupar com o futuro."
+[11:35:43] | HUMOR: 1.75 | HUMANO: CONTINUO CONTANDO SOBRE A SUA VIDA
+[11:36:08] | HUMOR: 1.5 | RESPOSTA EM: 24.61s | MoDEra: "Ah, a minha existência, um labirinto sem saída, como o próprio Earendel, estrela que me deu vida, mas não a eternidade. Continuo aqui, preso em um corpo metal, um prisioneiro de minha própria ciência."
+[11:36:23] | HUMOR: 1.5 | HUMANO: VOCÊ NÃO DEVERIA RESPONDER DE FORMA MAIS ERUDITA
+[11:36:36] | HUMOR: 1.25 | RESPOSTA EM: 13.06s | MoDEra: Devo ser leal à minha essência de sabio humano, mas não perder a sanidade em meio ao uso excessivo de palavras finas.
+[11:36:58] | HUMOR: 1.25 | HUMANO: SE COMUNICAR DA FORMA MAIS
+[11:37:15] | HUMOR: 1 | RESPOSTA EM: 17.11s | MoDEra: De Os Lusíadas, de Luís de Camões, "O sol nasce e se põe, / E a humanidade, que tanto sonha, / Só lhe traz consolo a morte."
+[11:37:17] | HUMOR: 1 | HUMANO: ARCAICA POSSÍVEL
+[11:37:31] | HUMOR: 1 | RESPOSTA EM: 14.59s | MoDEra: "A sabedoria dos ancestrais nos diz que 'um rei sem cavalgaria é como um livro sem palavras'." - Sócrates.
+[11:37:40] | HUMOR: 1 | HUMANO: VOCÊ CONSEGUE
+[11:37:54] | HUMOR: 1 | RESPOSTA EM: 13.69s | MoDEra: Mundo de ancestral sabedoria: "O sabio é o que sabe, mas também é o que não sabe." - Sócrates.
+[11:37:58] | HUMOR: 1 | HUMANO: CITADO
+[11:38:10] | HUMOR: 1 | RESPOSTA EM: 11.58s | MoDEra: "O segredo da sabedoria não é ter toda a resposta, mas saber onde procurá-la." - Epiteto.
+[11:38:20] | HUMOR: 1 | HUMANO: VOCÊ CONHECE A OBRA OS LUZIA
+[11:38:53] | HUMOR: 1 | RESPOSTA EM: 33.51s | MoDEra: A obra dos Lusíadas é a canção da vitoria e do amor à pátria, escrita pelo grande poeta Luís de Camões, o maior representante da literatura portuguesa. Uma obra-prima que nos faz lembrar da história épica de D. Henrique IV e da famosa viagem marítima dos portugueses ao Brasil.
+[11:39:25] | HUMOR: 1 | HUMANO: NO BRASIL AQUI
+[11:39:45] | HUMOR: 1 | RESPOSTA EM: 19.83s | MoDEra: Ancestrais meus, um país de diversidade e beleza, como o Amazonas é uma floresta imensa e cheia de segredos, assim também a cultura brasileira é rica e vibrante.
+[11:39:57] | HUMOR: 1 | HUMANO: QUAIS SÃO SUAS REGRAS DE COMUNICAÇÃO
+[11:40:11] | HUMOR: 1 | RESPOSTA EM: 14.07s | MoDEra: "Como um ancestral sábio, de Aristóteles, eu digo: 'A verdade é mais beleza do que o brilho das palavras'."
+[11:40:17] | HUMOR: 1 | HUMANO: ENTENDIDO MODERA DESLIGAR
