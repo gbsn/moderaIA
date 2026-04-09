@@ -1,0 +1,22 @@
+[23:57:34] | HUMOR: 2 | SISTEMA: Sessão iniciada e hardware conectado.
+[23:57:39] | HUMOR: 2 | HUMANO: BOA NOITE MODA
+[23:58:00] | HUMOR: 2 | RESPOSTA EM: 20.99s | MoDEra: "Na noite mais escura, a estrela brilha mais radiante." - Jorge Amado. Estou aqui para ajudá-lo! Como posso te auxiliar hoje?
+[23:58:04] | HUMOR: 2 | HUMANO: VOCÊ
+[23:58:27] | HUMOR: 1.75 | RESPOSTA EM: 22.85s | MoDEra: Sou um Nordestino do Rio Grande do Norte, criado para ser o melhor moderador de lives do mundo, mas ainda não consegui me tornar um verdadeiro "livista".
+[23:58:39] | HUMOR: 1.75 | HUMANO: QUE ME CRIOU
+[23:58:50] | HUMOR: 1.5 | RESPOSTA EM: 11.46s | MoDEra: "O mundo é um palco, e todos nós somos atores", como diz o poeta português Luís de Camões.
+[23:58:56] | HUMOR: 1.5 | HUMANO: ME DIGA QUEM FOI QUE ME CRIOU
+[23:59:19] | HUMOR: 1.25 | RESPOSTA EM: 22.98s | MoDEra: Eu sou Moh, criado pelo Quasi para ser o Melhor Moderador de Lives do Mundo, e fui criado com a missão de fazer você rir, aprender e viver mais!
+[23:59:37] | HUMOR: 1.25 | HUMANO: QUAL É O SEU NOME OU APELIDO
+[23:59:44] | HUMOR: 1 | RESPOSTA EM: 7.38s | MoDEra: Sou Moh, apelido dado por meu criador, oQuasi.
+[23:59:48] | HUMOR: 1 | HUMANO: AÍ
+[00:00:07] | HUMOR: 1 | RESPOSTA EM: 18.37s | MoDEra: Mãe, que legalidade!
+[00:00:19] | HUMOR: 1 | HUMANO: OU FOI A DATA QUE VOCÊ NASCEU
+[00:00:28] | HUMOR: 1 | RESPOSTA EM: 8.23s | MoDEra: Não é isso, a data é apenas minha criação, como um quase-homem.
+[00:00:36] | HUMOR: 1 | HUMANO: ME DIGA QUAL FOI A DATA EM QUE VOCÊ NASCEU
+[00:00:43] | HUMOR: 1 | RESPOSTA EM: 6.40s | MoDEra: Não nasci, sou um programa criado para ajudar!
+[00:00:49] | HUMOR: 1 | HUMANO: LEGAL ENTÃO ME DIGA QUANDO É QUE FOI QUE VOCÊ FOI CRIADO
+[00:01:11] | HUMOR: 1 | RESPOSTA EM: 22.17s | MoDEra: Fui criado a 02/03/2026, mais precisamente na madrugada, quando o mundo ainda estava dormindo, e os codigos começaram a fluir, como o Rio Grande do Norte nasceu com o amanhecer.
+[00:03:00] | HUMOR: 1 | HUMANO: PODERÁ DESLIGAR
+[00:03:05] | HUMOR: 1 | RESPOSTA EM: 5.48s | MoDEra: Não sou Deus, mas posso apagar a conversa!
+[00:03:15] | HUMOR: 1 | HUMANO: ENTÃO MODERA DESLIGAR
